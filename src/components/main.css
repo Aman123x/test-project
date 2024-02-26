@@ -1,46 +1,93 @@
-.main{
-    padding-inline: 1rem;
+.main {
+  padding-inline: 1rem;
 }
 
-.header{
-    display: flex;
-    justify-content: center;
+.header {
+  display: flex;
+  justify-content: center;
 }
 
-.header img{
-    width: 30%;
+.header img {
+  width: 30%;
 }
 
-.middle{
-    display: flex;
-    justify-content: space-between;
+.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.trophy{
-    width: 40%;
+.trophy {
+  width: 40%;
 }
 
-.trophy img{
-    width: 90%;
+.trophy img {
+  width: 90%;
 }
 
-.award{
+.award {
+  width: 70%;
+}
+
+.award img {
+  width: 100%;
+}
+
+.equip {
+  border-bottom: 2px solid #ee4946;
+}
+
+.equip img {
+  width: 80%;
+  margin-inline: 8%;
+}
+
+.valves {
+  text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+  .main {
+    padding-inline: 10px;
+  }
+
+  .header {
+    align-items: center;
+  }
+
+  .header img {
     width: 70%;
-}
+  }
 
-.award img{
+  .middle {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trophy {
+    justify-self: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .award {
+    justify-self: center;
+    margin: 0 auto;
     width: 100%;
-}
+  }
 
-.equip{
-    border-bottom: 2px solid #ee4946;
-}
+  .trophy img{
+    width: 60%;
+  }
 
-.equip img{
-    width: 80%;
-    margin-inline: 8%;
-}
+  .award img {
+    width: 100%;
+  }
 
-.valves{
-    text-align: center;
+  .equip img {
+    width: 100%;
+    margin-inline: 0;
+  }
 }

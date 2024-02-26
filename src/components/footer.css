@@ -13,6 +13,10 @@
     padding-right: 5px;
 }
 
+.item span:last-child{
+    border-right: none;
+}
+
 .footer_bottom{
     display: flex;
     justify-content: space-around;
@@ -28,4 +32,28 @@
 .footer_bottom div a{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width:770px) {
+
+    .footer_child p:first-child {
+        margin-bottom: 10px; 
+      }
+    
+      .footer_bottom {
+        flex-direction: column;
+        justify-content: center;
+        height: auto; 
+        padding: 20px 0;
+      }
+    
+      .footer_bottom div {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    
+      .footer_bottom div > img {
+        width: 30px; 
+        margin-bottom: 5px; 
+      }
 }
