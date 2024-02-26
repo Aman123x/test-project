@@ -1,0 +1,31 @@
+.footer_child p:first-child{
+    text-align: center;
+    font-weight: 700;
+}
+
+.item{
+    text-align: center;
+}
+
+.item span{
+    border-right: 2px solid #ee4946;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+    background-color: #ee4946;
+}
+
+.footer_bottom div>img {
+    width: 40px;
+}
+
+.footer_bottom div a{
+    text-decoration: none;
+    color: white;
+}

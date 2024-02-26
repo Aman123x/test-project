@@ -1,0 +1,46 @@
+.main{
+    padding-inline: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header img{
+    width: 30%;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trophy{
+    width: 40%;
+}
+
+.trophy img{
+    width: 90%;
+}
+
+.award{
+    width: 70%;
+}
+
+.award img{
+    width: 100%;
+}
+
+.equip{
+    border-bottom: 2px solid #ee4946;
+}
+
+.equip img{
+    width: 80%;
+    margin-inline: 8%;
+}
+
+.valves{
+    text-align: center;
+}
